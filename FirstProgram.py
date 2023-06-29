@@ -6,6 +6,9 @@
 print("Hello World!!!")       #Whatever you want to print must be enclosed within double quotes
 print(10)         #We can also print numbers directly
 print("Hello World" , 108)       #We can print multiple things separated by comma
+print("Hello","World", 100 , sep= "@")    #We have used separator in between multiple outputs
+#Default separator is space 
+print("Hello World", end="!!!!!!!")       #output will end with !!this default is \n
 print(12*3)       #We can perform any type of calculations(See output)
 print("If you want to break line \n use backslash n")
 print("To print double quotes (\") use backslash and to print backslash (\\) we use escape sequences")
