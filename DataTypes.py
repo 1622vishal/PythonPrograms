@@ -18,6 +18,12 @@ print(c)
 print(d)
 print(a + a1)      #Since the data type is int so these two  will be added
 print(b + b1)      #The strings will be concatenated
+#print(b + 4)       Wrong!!!!!
+#print(b - b1)     This i invalid we cannot use - in strings it doesn't make any sense
+print(b * 5)       #It will concatenate Hello % times
+#print(b * b1)     This is also wrong we cannot multiply two strings 
+#print(b / 5)      This is also wrong 
+#print(b / b1)
 print(c + c1)       #See output
 print(f)
 # print(a + b)    It will throw error because we cannot add two diff. data types
