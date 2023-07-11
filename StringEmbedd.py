@@ -23,3 +23,12 @@ print(f"Complete info: {info}")
 #If you remove f from this then everything will be printed as it is
 info = "{name} is {age} years old"
 print(info)
+
+"""When triple double quotes are used immediately after a function, class, or module definition, they are treated as docstrings. On the other hand, when triple double quotes are not associated with any specific entity and appear in the middle of the code, they are considered multiline comments.Python recognizes the purpose of triple double quotes based on their location in the code, whether they are associated with a specific entity or appear as standalone blocks."""
+multilinestring = """This string is to implement
+    multiple line such as poem or essay,
+    and it is achieved using triple double or single quotes
+    but it is not considered as comments beacause we are assigning
+    it to a variable"""
+
+print(multilinestring)
